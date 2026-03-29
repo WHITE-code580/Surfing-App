@@ -1,0 +1,135 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/31/13/05/surfer-3644634_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #404040;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    overflow-x: hidden;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}   
+
+#surfing-wrapper {
+    max-width: 400px;
+    background-color: #474554;
+    color: #fff;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    transition: 2s;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+#submitButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #bfbfbf;
+    color: #0D0D0D;
+    border: 2px solid #0D0D0D;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin: 15px;
+}
+h1 {
+    font-size: 2.1em;
+}
+
+#heading {
+    transition: 1s;
+}
+
+h3 {
+    color: #bfbfbf;
+    font-size: 1.1em;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+hr {
+    height: 1.6px;
+    background-color: #fff;
+    border-color:  #fff; 
+
+}
+
+input, select {
+    width: 60%;
+    height: 2em;
+    font-size: 20px;
+    border: 1px solid #0D0D0D;
+    margin: 10px;
+    text-align: center;
+    
+  
+}
+
+p {
+   text-align: center; 
+   font-size: 1.1em;  
+   color: #bfbfbf;  
+   margin: 10px;
+   padding-top: 5px;
+
+}
+
+#controls {
+    text-align: left;
+    margin-left: 15px;
+}
+
+#rightButton,
+#leftButton,
+#closeButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #8685ef;
+    color: rgb(1, 1, 38);
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+#results {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2e2d38;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
