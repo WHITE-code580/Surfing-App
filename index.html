@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surfing</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="Images/surfing - favicon-32x32.png" rel="icon">
+</head>
+
+<body>
+    
+<div id="surfing-wrapper">
+
+    <h1 id="heading" onmouseenter="colorGrey()" onmouseleave="colorWhite()">Surfing</h1>
+    <h3>Calculate the correct board volume in (liters) based on your weight and skill level</h3>
+    <hr>
+
+    <form onsubmit="handleForm(event)">
+        <div>
+            <p>Your Name</p>
+            <input type="text" name="username" required placeholder="Please enter your Name">
+        </div>
+
+        <div>
+            <p>Weight in (kg)</p>
+            <input type="number" min="0" name="weight" required 
+            placeholder="Please enter your Weight">
+        </div>
+
+        <div>
+            <p>Skill Factor:</p>
+            <select name="skillFactor" required>
+                <option value="">Select your skill level</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </div>
+
+        <div id="skillFactorFeedback"></div>
+        <button type="submit" id="submitButton">Submit</button>
+    </form>
+
+    <hr>
+    <div id="results">
+        <h2>Results</h2>
+        <p>The appropriate board volume 
+    <br>
+            (in liters):</p>
+        <div id="volume"></div>
+    </div>
+    
+</div>
+
+
+<div id="controls">
+    <button id="rightButton" onclick="moveRight()">Move right</button>
+    <button id="leftButton" onclick="moveLeft()">Move left</button>
+    <button id="closeButton" onclick="closePage()">Close</button>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
