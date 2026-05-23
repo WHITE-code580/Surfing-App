@@ -20,8 +20,27 @@ Calculate the volume of a surfboard using the following criteria:
 Technologies Used: 
 
 •	HTML5
+
 •	CSS3 
+
 •	JavaScript 
 
+Project Structure:
+
+project-folder/
+
+│
+
+├── index.html     
+
+├── style.css       
+
+├── script.js       
+
+└── Images/
+
+    └── surfing - main pic
+    
+    └── surfing - favicon-32x32.png
 
 
