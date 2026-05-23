@@ -73,3 +73,4 @@ Example:
 
 60kg × 0.3 = 18 liters
 
+HTML summary (index.html):
