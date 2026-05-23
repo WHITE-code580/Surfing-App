@@ -43,6 +43,17 @@ project-folder/
     
     └── surfing - favicon-32x32.png
 
+How the Application Works:
+
+1. User Inputs
+
+The user enters:
+
+•	Their name 
+
+•	Weight in kilograms 
+
+•	Surfing skill level
    
 
 
