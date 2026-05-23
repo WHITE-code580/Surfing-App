@@ -51,9 +51,9 @@ The user enters:
 
 •	Their name 
 
-•	Weight in kilograms 
+•	Their weight in kilograms 
 
-•	Surfing skill level
+•	Their surfing skill level
    
 2. Skill Factor Selection
    
@@ -71,6 +71,7 @@ Board Volume = Weight × Skill Factor
 
 Example:
 
-60kg × 0.3 = 18 liters
+60kg × 0.3 = 18 liters 
 
 HTML summary (index.html):
+
