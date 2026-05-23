@@ -55,5 +55,11 @@ The user enters:
 
 •	Surfing skill level
    
+2. Skill Factor Selection
+   
+Each skill level has a different volume multiplier:
 
+Skill Level: Beginner, Intermediate, Advanced
+
+Factor: 0.6; 0.3; 0.1
 
