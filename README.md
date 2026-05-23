@@ -59,7 +59,17 @@ The user enters:
    
 Each skill level has a different volume multiplier:
 
-Skill Level: Beginner, Intermediate, Advanced
+-Skill Level: Beginner, Intermediate, Advanced
 
-Factor: 0.6; 0.3; 0.1
+-Factor: 0.6; 0.3; 0.1
+
+3. Board Volume Calculation
+
+The app calculates the board volume using:
+
+Board Volume = Weight × Skill Factor
+
+Example:
+
+60kg × 0.3 = 18 liters
 
