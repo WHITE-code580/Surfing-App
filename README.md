@@ -1,3 +1,18 @@
 "Surfing-App".
 
 A user-friendly interactive web application that enables surfers to calculate the recommended surfboard volume (in liters) based on their weight and skill level. This project is developed using HTML, CSS, and JavaScript.
+
+
+Features:
+
+Calculate the volume of a surfboard using the following criteria:
+
+-User weight
+
+-Skill level (Beginner, Intermediate, Advanced)
+
+-Adjustable surfing calculator panel
+
+-Skill-level feedback messages
+
+-A responsive design featuring a surfing theme
