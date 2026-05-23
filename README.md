@@ -37,10 +37,12 @@ project-folder/
 
 ├── script.js       
 
-└── Images/
-
+└── Images/ 
+    
     └── surfing - main pic
     
     └── surfing - favicon-32x32.png
+
+   
 
 
