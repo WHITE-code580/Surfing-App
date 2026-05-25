@@ -79,16 +79,25 @@ The HTML file includes:
 
 •	Form inputs for: 
 
-o	Name 
+ - Name 
 
-o	Weight 
+ - Weight 
 
-o	Skill level 
+ - Skill level 
 
 •	Results display section 
 
 •	Control buttons: 
 
-o	Move right &  Move left 
+ - Move right &  Move left 
 
-o	Close a page
+ - Close a page
+
+The Key Elements:
+
+<form onsubmit="handleForm(event)"> - Handles form submission by using JavaScript.
+
+<div id="results"> - Shows the calculated board volume.
+
+<button onclick="moveRight()">
+<button onclick="moveLeft()"> - Moves the calculator box to the right or left side of the screen.
