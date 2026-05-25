@@ -73,3 +73,22 @@ Example: 60kg × 0.3 = 18 liters
 
 HTML summary (index.html):
 
+The HTML file includes:
+
+•	A wrapper container for the surfing calculator 
+
+•	Form inputs for: 
+
+o	Name 
+
+o	Weight 
+
+o	Skill level 
+
+•	Results display section 
+
+•	Control buttons: 
+
+o	Move right &  Move left 
+
+o	Close a page
