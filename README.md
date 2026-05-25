@@ -51,9 +51,9 @@ The user enters:
 
 •	Their name 
 
-•	Their weight in kilograms 
+•	Weight in kilograms 
 
-•	Their surfing skill level
+•	Surfing skill level
    
 2. Skill Factor Selection
    
@@ -69,9 +69,7 @@ The app calculates the board volume using:
 
 Board Volume = Weight × Skill Factor
 
-Example:
-
-60kg × 0.3 = 18 liters 
+Example: 60kg × 0.3 = 18 liters 
 
 HTML summary (index.html):
 
