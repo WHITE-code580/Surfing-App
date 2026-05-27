@@ -1,103 +1,109 @@
-"Surfing-App".
+"Surfing-App"
 
-A user-friendly interactive web application that enables surfers to calculate the recommended surfboard volume (in liters) based on their weight and skill level. This project is developed using HTML, CSS, and JavaScript.
+A simple interactive web app that helps surfers calculate the recommended surfboard volume (in liters) based on their weight and skill level.
 
+Built with HTML, CSS, and JavaScript.
 
 Features:
 
-Calculate the volume of a surfboard using the following criteria:
+•	Surfboard volume calculator
 
--User weight
+•	Skill levels: Beginner, Intermediate, Advanced
 
--Skill level (Beginner, Intermediate, Advanced)
+•	Interactive movable calculator panel
 
--Adjustable surfing calculator panel
+•	Skill-level feedback messages
 
--Skill-level feedback messages
+•	Responsive surfing-themed design
 
--A responsive design featuring a surfing theme
-
-Technologies Used: 
+Technologies Used:
 
 •	HTML5
 
-•	CSS3 
+•	CSS3
 
-•	JavaScript 
+•	JavaScript
 
 Project Structure:
 
 project-folder/
 
-│
+├── index.html
 
-├── index.html     
+├── style.css
 
-├── style.css       
+├── script.js
 
-├── script.js       
+└── Images/
 
-└── Images/ 
+    ├── surfing-main-pic
     
-    └── surfing - main pic
-    
-    └── surfing - favicon-32x32.png
+    └── surfing-favicon-32x32.png
 
-How the Application Works:
+How It Works:
 
-1. User Inputs
-
-The user enters:
-
-•	Their name 
-
-•	Weight in kilograms 
-
-•	Surfing skill level
+1.	Enter your name, weight, and skill level
    
-2. Skill Factor Selection
+2.	The app applies a skill multiplier:
    
-Each skill level has a different volume multiplier:
+•	Beginner: 0.6
 
--Skill Level: Beginner, Intermediate, Advanced
+•	Intermediate: 0.3
 
--Factor: 0.6; 0.3; 0.1
+•	Advanced: 0.1
 
-3. Board Volume Calculation
-
-The app calculates the board volume using:
+Board volume is calculated using:
 
 Board Volume = Weight × Skill Factor
 
-Example: 60kg × 0.3 = 18 liters 
+Example:
 
-HTML summary (index.html):
+60kg × 0.3 = 18 liters
 
-The HTML file includes:
+Main Functions:
 
-•	A wrapper container for the surfing calculator 
+•	Form validation and handling
 
-•	Form inputs for: 
+•	Surfboard volume calculation
 
- - Name 
+•	Interactive panel movement
 
- - Weight 
+•	Hover color effects
 
- - Skill level 
+•	Close-page thank you message
 
-•	Results display section 
+Design Features:
 
-•	Control buttons: 
+•	Surfing background image
 
- - Move right &  Move left 
+•	Semi-transparent calculator panel
 
- - Close a page
+•	Smooth animations and hover effects
 
-The Key Elements:
+•	Fade-in result display
 
-<form onsubmit="handleForm(event)"> - Handles form submission by using JavaScript.
+Run the Project:
 
-<div id="results"> - Shows the calculated board volume.
+1.	Download or clone the files
+   
+2.	Keep all files in the same folder
+   
+3.	Open index.html in your browser
 
-<button onclick="moveRight()">
-<button onclick="moveLeft()"> - Moves the calculator box to the right or left side of the screen.
+Future Improvements:
+
+•	Better mobile responsiveness
+
+•	More skill levels
+
+•	Surfboard recommendations
+
+•	Local storage support
+
+•	Metric/imperial conversion
+
+Example Output:
+
+Anna, your board volume is 18.00 liters
+
+Author: Created by Maria S. S. - [WHITE-code58]
