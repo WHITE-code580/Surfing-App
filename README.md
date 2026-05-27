@@ -30,6 +30,8 @@ project-folder/
 
 ├── index.html
 
+└── README.md
+
 ├── style.css
 
 ├── script.js
